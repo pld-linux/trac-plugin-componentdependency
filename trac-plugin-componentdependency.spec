@@ -10,6 +10,7 @@ Source0:	http://trac-hacks.org/changeset/latest/componentdependencyplugin?old_pa
 # Source0-md5:	3330fdc7e1f7f48037089f0a81485fa1
 URL:		http://trac-hacks.org/wiki/ComponentDependencyPlugin
 BuildRequires:	python-devel
+BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
